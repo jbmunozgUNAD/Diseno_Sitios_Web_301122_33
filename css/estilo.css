@@ -1,0 +1,97 @@
+
+body {
+    background-image: url(../images/tecnologia.jpg);
+    background-size: cover;
+    padding-top: 15px;
+}
+
+#contenedor {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.72);
+    float: left;
+    width: 100%;
+}
+
+
+#barramenu {
+    background-color: rgba(14, 110, 140, 0.51);
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+
+header {
+    min-height: 120px;
+    background-color: rgba(255, 255, 255, 0.68);
+}
+
+article {
+    margin-left: 15px;
+}
+
+#Header-logo {
+	width: 50%;
+    float: left;
+    background-color: rgba(119, 199, 247, 0.67);
+}
+
+#Header-titulo {
+	width: 50%;
+    float: right;
+    padding-top: 2%;
+    padding-bottom: 3.3%;
+    background-color: rgba(119, 199, 247, 0.67);
+}
+
+.logounad{
+	min-width: 60px;
+	max-width: 550px;
+}
+
+#section-contenedor{
+	background-color: rgb(255, 255, 255);
+	min-height: 600px;
+}
+
+#section-contenido {
+	width: 70%;
+    float: left;
+
+}
+
+#aside-contenido {
+	width: 30%;
+    float: right;
+
+}
+
+#footer-autor {
+	width: 50%;
+    float: left;
+}
+
+#footer-unad {
+	width: 50%;
+    float: right;
+}
+
+footer section  h5{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+section  p{
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+.container{
+    margin-bottom: 10px;
+}
+
+#licencia {
+    background-color: white;
+    float: left;
+    width: 100%;
+}
