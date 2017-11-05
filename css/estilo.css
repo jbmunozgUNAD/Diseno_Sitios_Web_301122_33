@@ -14,7 +14,7 @@ body {
 
 
 #barramenu {
-    background-color: rgba(14, 110, 140, 0.51);
+    background-color: rgba(14, 110, 140, 0.75);
     margin-top: 4px;
     margin-bottom: 0px;
 }
@@ -39,7 +39,7 @@ article {
 	min-width: 50%;
     float: right;
     padding-top: 2%;
-    padding-bottom: 3.3%;
+    padding-bottom: 2.5%;
     background-color: rgba(119, 199, 247, 0.67);
 }
 
@@ -58,6 +58,11 @@ article {
 	min-height: 600px;
 }
 
+#section-contenedor2{
+    background-color: rgb(255, 255, 255);
+    min-height: 800px;
+}
+
 #section-contenido {
 	width: 70%;
     float: left;
@@ -70,13 +75,27 @@ article {
 
 }
 
+footer{
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    width: 100%;
+}
+
+#footer-imagen {
+    width: 5%;
+    float: left;
+}
+
 #footer-autor {
-	width: 50%;
+    margin-top: 10px;
+	width: 63%;
     float: left;
 }
 
 #footer-unad {
-	width: 50%;
+    margin-top: 10px;
+	width: 32%;
     float: right;
 }
 
@@ -116,9 +135,35 @@ section  p{
   #section-contenido{
     width: 100%;
   }
+
+
+
 }
+/*@media screen and (max-width:800px) {
+    #barramenu {
+        margin-top: 100px;
+   }
+}*/
+
+
+
 /*@media screen and (max-width:599px) {
   nav li {
     display: inline;
   }
 }*/
+
+
+/* Licenses */
+#packageLicense a{    
+    color: rgba(51, 0, 255, 1);
+}
+
+#packageLicense a{    
+    color: rgba(51, 0, 255, 1);
+}
+
+#packageLicense img{    
+    max-width: 60px;
+    max-height: 60px;
+}
